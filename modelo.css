@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'tesouro'; /* Give it a name */
+  src: url('./treasure_map/MapadoTesouro.otf') format('opentype'), /* Modern format */
+       url('./treasure_map/MapadoTesouro.otf') format('woff');   /* Fallback */
+  font-weight: normal;
+  font-style: normal
+}
+
+*{
+  font-family: 'tesouro', sans-serif;
+  box-sizing: border-box;
+  -webkit-text-stroke: 0.1px rgb(2, 2, 2);
+}
+
+body{
+  
+    background-image: url("./imagens/backgroung-map_black.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+.prox{
+  
+  margin: 5%;
+  font-size: 300%;
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 42px;
+  padding: 10px;
+  width: 250px;
+  background-color: rgb(226, 226, 226);
+  border: 1px solid rgb(182, 182, 182);
+}
+img{
+    width: 70%;
+    border: 3px solid rgb(182, 182, 182);
+  
+}
+
+h1{
+  font-size: 250%;
+  margin: 5%;
+  text-align: left;
+  width: 90%;
+  color:rgb(226, 226, 226);
+  
+}
+
+a{
+ 
+  font-weight: bold;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(212, 24, 24);
+ 
+}
+
+h6{
+  margin: 5%;
+  font-size: 150%;
+  font-weight:lighter;
+  padding: 5%;
+  width: 90%;
+  border: 1px solid rgb(182, 182, 182);
+  text-align: left;
+  background-color: rgb(226, 226, 226);
+}
